@@ -10,51 +10,47 @@
  *
  *
  */
-
-@font-face {
-	font-family: "Novecentosans-Light";
-	src: url('../webfonts/2974BE_0_0.eot');
-	src: url('../webfonts/2974BE_0_0.eot?#iefix') format('embedded-opentype'), url('../webfonts/2974BE_0_0.woff') format('woff'), url('../webfonts/2974BE_0_0.ttf') format('truetype');
-	font-style: normal;
-	font-weight: normal;
+ @font-face {
+    font-family:"Novecentosans-Light";
+    src: url('../webfonts/2974BE_0_0.eot');
+    src: url('../webfonts/2974BE_0_0.eot?#iefix') format('embedded-opentype'), url('../webfonts/2974BE_0_0.woff') format('woff'), url('../webfonts/2974BE_0_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 body {
-	background: url('../img/hi.png') repeat repeat;
-	font-family: "Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    background: url('../img/hi.png') repeat repeat;
+    font-family:"Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 #top-container {
-	width: 1000px;
-	background: #ffffff;
+    width: 1000px;
+    background: #ffffff;
 }
-
 #content-main {
-	width: 1000px;
-	background: #ffffff;
+    width: 1000px;
+    background: #ffffff;
 }
 #header {
-	width: 1000px; /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
-	background: #FFFFFF;
+    width: 1000px;
+    /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+    background: #FFFFFF;
 }
 #image-panel {
-	width: 1000px;
-	background: #ffffff;
+    width: 1000px;
+    background: #ffffff;
 }
 #low-content {
     width: 1000px;
-	background: #ffffff;
+    background: #ffffff;
 }
 #content-footer {
     width: 1000px;
-	background: #ffffff;
+    background: #ffffff;
 }
-
 #nav-zone h1 {
     color: #ffffff;
-
 }
-h1, h2, h3,h4, h5 {
-	font-family: "Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
+h1, h2, h3, h4, h5 {
+    font-family:"Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
 }
