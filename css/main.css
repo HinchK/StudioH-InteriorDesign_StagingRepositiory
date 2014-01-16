@@ -7,7 +7,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #222222;
 }
 
 body {
@@ -61,27 +61,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-#page {
-
-    background-image: url(../img/hi.png);
-    background-repeat: repeat;
-}
-
-#center-logo {
-
-    padding: 5px 0;
-
-}
-
-#header {
-    padding: 10px 0;
-}
-
-#content-main {
-    padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
-    background: #393939;
-}
 
 /* ==========================================================================
    Media Queries
