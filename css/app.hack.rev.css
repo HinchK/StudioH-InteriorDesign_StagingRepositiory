@@ -1,0 +1,82 @@
+/**
+ * app.css 												studioh-int.com
+ *
+ * Custom CSS that overrides Foundation CSS.  Otherwise, upgrades within
+ * the Foundation Framework would be a baffling ordeal.
+ *
+ *
+ * Novecentosans fonts licensed from 2014 © MyFonts Inc
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2716862
+ *
+ *
+ */
+@charset "UTF-8";
+@font-face {
+    font-family:"Novecentosans-Light";
+    src: url('../webfonts/2974BE_0_0.eot');
+    src: url('../webfonts/2974BE_0_0.eot?#iefix') format('embedded-opentype'), url('../webfonts/2974BE_0_0.woff') format('woff'), url('../webfonts/2974BE_0_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    background: url('../img/hi.png') repeat repeat;
+    font-family:"Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#top-container {
+    width: 1020px;
+    background: #ffffff;
+}
+#content-main {
+    width: 1020px;
+    background: #ffffff;
+}
+#header {
+    width: 1020px;
+    /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+    background: #FFFFFF;
+}
+#image-panel {
+    width: 1020px;
+    background: #ffffff;
+}
+#low-content {
+    width: 1020px;
+    background: #ffffff;
+}
+#content-footer {
+    width: 1020px;
+    background: #ffffff;
+}
+#nav-zone h1 {
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5 {
+    font-family:"Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
+}
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    /* ideally, transition speed should match zoom duration */
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}

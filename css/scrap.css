@@ -1,0 +1,70 @@
+<div class="photoset-grid" data-layout="12" style="visibility: hidden;">
+<img src="img/frock3.jpg" alt="" />
+<img src="img/chair.jpg" alt="" />
+<img src="img/imagechairs.jpg" />
+</div>
+
+#page {
+    background: url('../img/hi.png') repeat repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+#content-wrapped {
+    height: 700px;
+    width: 900px;
+    background: #ffffff;
+
+}
+#content-main {
+    width: 900px;
+    background: #ffffff;
+}
+#low-content {
+    background: #ffffff;
+}
+#nav-zone h1 {
+    width: 980px;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:"Novecentosans-Light", Arial, Helvetica, Times, sans-serif;
+}
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    /* ideally, transition speed should match zoom duration */
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.5;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+/*
+////////////////////////////////////////
+ Absolute Centering
+////////////////////////////////////////
+*/
+.Absolute-Center {
+    height: 50%; /* Set your own height: percents, ems, whatever! */
+    width: 50%; /* Set your own width: percents, ems, whatever! */
+    overflow: auto; /* Recommended in case content is larger than the container */
+    margin: auto; /* Center the item vertically & horizontally */
+    position: absolute; /* Break it out of the regular flow */
+    top: 0; left: 0; bottom: 0; right: 0; /* Set the bounds in which to center it, relative to its parent/container */
+}

@@ -23,3 +23,9 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$('#image-panel').magnificPopup({
+	delegate: 'a', // child items selector, by clicking on it popup will open
+	type: 'image'
+	// other options
+});

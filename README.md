@@ -1,8 +1,18 @@
 # studio-h-int.com # 
 
-# todo: add versioning/changelog to git #
+## TODO ##
 
-While I'm working on this project, I'm also breaking my comfortzone with SVN and forcing myself to learn git!  A lot throws me off sometimes...with that thought:
+* Image presentation 
+	- http://stylehatch.github.io/photoset-grid/#demo-lightbox
+	- http://dimsemenov.com/plugins/magnific-popup/
+	- blend em or choose 1!
+* Dont forget the principles https://github.com/veltman/principle
+* Responsive flow/racing stripe style - get it working and up for review and decision
+
+
+
+While I'm working on this project, I'm also breaking my comfortzone with SVN and forcing myself to learn git!
+Before it was weird, but now I gots the hang of it, thanks github!
 
 ## TODO ##
 
